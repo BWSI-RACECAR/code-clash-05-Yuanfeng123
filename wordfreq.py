@@ -30,8 +30,8 @@ class Solution:
         # return: int
         
         # TODO: Write code below to return an int with the solution to the prompt
-        hi_string = hi_string.replace("hi", "%")
-        return hi_string.count("%")
+        # hi_string = hi_string.replace("hi", "%")
+        return hi_string.count("hi")
 
 def main():
     string1 = input()
