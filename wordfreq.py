@@ -31,7 +31,7 @@ class Solution:
         
         # TODO: Write code below to return an int with the solution to the prompt
         # hi_string = hi_string.replace("hi", "%")
-        return hi_string.count("hi")
+        return hi_string.count("hi") + hi_string.count("HI") + hi_string.count("Hi") + hi_string.count("hI")
 
 def main():
     string1 = input()
